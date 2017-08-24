@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.SearchContainer {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.ItemContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ItemContainer:hover{
+  background-color:darkgray;
+}
+
+.ArtistPic {
+  height: 30px;
+  width: 30px;
+}
+
+.Artist {
+  font-size: .75em;
+}

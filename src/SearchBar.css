@@ -1,0 +1,16 @@
+input {
+    margin: 5vh;
+    width: 60vw;
+    height: 8vh;
+    text-align: center;
+    border: 1px solid yellow;
+    box-shadow: none;
+    background: black;
+    color: yellow;
+    font-size: 3em;
+}
+
+input:focus {
+    box-shadow: 0 1px 1px yellow inset, 0 0 8px yellow;
+    outline: 0 none;
+}
