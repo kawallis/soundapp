@@ -4,7 +4,7 @@ import SearchBar from './SearchBar';
 import api from './api/api';
 import SC from 'soundcloud';
 
-SC.initialize({ client_id: 'g7HtHXILa67NWikVcONmjiv69EuwxROF'});
+SC.initialize({ client_id: process.env.CLIENT_ID});
 
 class App extends Component {
   constructor() {
